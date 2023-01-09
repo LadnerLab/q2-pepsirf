@@ -382,7 +382,7 @@ plugin.methods.register_function(
                 'pepsirf_binary': "The binary to call pepsirf on your system.",
                 'source': "Metadata file containing all sample names and their source groups. "
                         "Used to create pairs tsv to run pepsirf enrich module.",
-                'low_raw_reads': "!!!PUT DESCRIPTION!!!",
+                'low_raw_reads': "By default samples with any replicates below the raw read threshold will be dropped when this flag is included, replicates with reads above the threshold will be kept.",
                 'outfile': "The outfile that will produce a list of inputs to PepSIRF."
         },
         output_descriptions={
